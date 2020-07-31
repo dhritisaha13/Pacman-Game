@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pacman Game</title>
+    </head>
+    <body>
+        <h1 class="h1">WELCOME TO PACMAN GAME!</h1>
+        <div id="canvas-bloc">
+            <canvas id="canvasSpace" width="600" height="500"></canvas>
+            <p id="how-to-play"><b>HOW TO PLAY :</b> Use your <b>arrow keys</b> to move the <b>pacman</b> in order to eat the powerdot and the ghost. Pacman can eat a ghost only after eating the powerdot, and then only it can score a point. Ghost gets a point if it eats the pacman. The one having a <b>greater score wins</b>!
+            <br>Created by <a href="https://dhritisahawebsite.netlify.app/"><b>Dhriti Saha</b></a>.    
+            </p>
+        </div>
+        <script src="game.js"></script>
+    </body>
+    
+    <style>
+        body{
+            height: 700px;
+            background: linear-gradient(to right, yellow , white);
+        }
+        
+        p{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: monospace;
+            color: deeppink;
+        }
+        
+        #canvas-bloc{
+            margin-left: 450px;
+            max-width: 40%;
+        }
+        
+        #how-to-play{
+            font-size: 15px;
+            font-family: monospace;
+            color: deeppink;
+            padding-left: 0%;
+        }
+    </style>
+    
+    
+</html>
